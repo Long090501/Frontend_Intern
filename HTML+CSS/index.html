@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src ="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var owl1 = $('.owl-one')
+            owl1.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                1000: {
+                    items: 1
+                }
+            }
+            });
+
+            var owl2 = $('.owl-two')
+            owl2.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                1000: {
+                    items: 1
+                }
+            }
+            });
+        $('.play').on('click',function() {
+            owl.trigger('play.owl1.autoplay',[3000])
+        })
+
+        $('.play').on('click',function() {
+            owl.trigger('play.owl2.autoplay',[3000])
+        })
+        })
+    </script>
+</head>
+<body>
+    <div class = 'simicart'>
+
+        <div class = 'simicart-part1'>
+            <div class="owl-one owl-carousel owl-theme">
+                <div class = 'container'>
+                    <div class = 'row'>
+                        <div class = 'col-lg-5'>
+                            <h1>Helping Magento bussiness grow since 2011</h1>
+                            <p>
+                                With experience and expertise in Magento platform, we have
+                                been digital transforming businesses and helping store owners
+                                to become successful from the start of our days
+                            </p>
+                            <button class = 'contact'><a class = 'info-link' href = 'https://www.simicart.com/demo.html/'>Contact Us</a></button>
+                        </div>
+
+                        <div class = 'col-lg-7'>
+                            <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1641372325222/Home-hero.png'></img>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class = 'container'>
+                    <div class = 'row'>
+                        <div class = 'col-lg-6'>
+                                <h1>SimiCart is now a part of BSS Family</h1>
+                            <p>
+                                Our solutions are now strengthened to bring you greater value, faster & more affordable.</br></br>
+                                Our ecosystem:
+                            </p>
+                            <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1658820890656/hero-logo.png'></img>
+                            <button class = 'contact'><a class = 'info-link' href = 'https://www.simicart.com/demo.html/'>Contact Us</a></button>
+                        </div>
+                    
+                        <div class = 'col-lg-6'>
+                            <img class = 'image' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1658887780194/hero---photo-2.png'></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = 'simicart-part2'>
+            <div class = 'container'>
+            <h2 class = 'title'>Who we are</h2>
+
+            <div class = 'content'>
+                <p>With over 10 years working in the eCommerce industry, we understand the difficulties
+                   customers and merchants are facing in buying and selling products online.</br>
+                   We work hard every day with no purpose other than perfecting customer experience in online
+                   shopping and at the same time increase store owners' revenue.
+                </p>
+            </div>
+
+            <div class = 'row'>
+                <div class = 'col-lg-4'>
+                    <h1 class = 'number'>10+</h1>
+                    <p class = 'description'>Years of experience in Magento<br/>eCommerce development</p>
+                </div>
+                <div class = 'col-lg-4'>
+                    <h1 class = 'number'>1,000+</h1>
+                    <p class = 'description'>Successful and happy customers from all</br>over the world</p>
+                </div>
+                <div class = 'col-lg-4'>
+                    <h1 class = 'number'>87%</h1>
+                    <p class = 'description'>5-star ratings on Magento marketplace</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class = 'simicart-part3'>
+            <h2 class = 'title'>What we do</h2>
+
+            <div class = 'container'>
+            <div class = 'row'>
+                <div class = 'col-lg-4'>
+                    <h2 class = 'job-title'>Free Magento PWA Theme</h2>
+                    <p class = 'job-description'>
+                        Based on PWA Studio, our open-source PWA theme for
+                        Magento 2 is an easy way to transform your store into a
+                        headless storefront that is fast, engaging, and mobile-friendly.
+                    </p>
+                    <button class = 'learn-more'><a class = 'info-link' href = 'https://www.simicart.com/free-magento-pwa-theme/'>Learn more</a></button>
+                </div>
+
+                <div class = 'col-lg-8'>
+                    <img class = 'image1' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640680526209/siminia.png'></img>
+                </div>
+            </div>
+
+            <div class = 'row'>
+                <div class = 'col-lg-8'>
+                    <h2 class = 'job-title'>PWA Storefront for Magento 2</h2>
+                    <img class = 'image2' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1627268830236/7diEA3GV6816291080240ad3da612551708c2e8f92e0d982c573.png'></img>
+                </div>
+
+                <div class = 'col-lg-4'>
+                    <div class = 'wrapper'>
+                    <p class = 'job-description'>
+                        Nothing can bore customers away like a website that
+                        loads forever. Our Magento PWA storefront turns your
+                        slow sites into the fastest runners in the race, providing
+                        an unrivaled shopping experience. 
+                    </p>
+                    <div class = 'features'>
+                        <div class = 'check-icon'>
+                            <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1626833641000/IhCGE6j4Jj162683881243d319d916d5d8aa8e52a851c8d6bb3f.png'></img>
+                        </div>
+                        <div class = 'feature-description'>
+                        <p>
+                            <strong>Lightning-fast website</strong></br>
+                            with high Google Lighthouse score
+                        </p>
+                        </div>
+                    </div>
+                    <div class = 'features'>
+                        <div class = 'check-icon'>
+                            <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1626833641000/IhCGE6j4Jj162683881243d319d916d5d8aa8e52a851c8d6bb3f.png'></img>
+                        </div>
+                        <div class = 'feature-description'>
+                        <p>
+                            <strong>Native app-like experience</strong></br>
+                            make mobile browser shopping experience</br>
+                            enjoyable as a native mobile app
+                        </p>
+                        </div>
+                    </div>
+                    <div class = 'features'>
+                        <div class = 'check-icon'>
+                            <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1626833641000/IhCGE6j4Jj162683881243d319d916d5d8aa8e52a851c8d6bb3f.png'></img>
+                        </div>
+                        <div class = 'feature-description'>
+                        <p>
+                            <strong>Rich content page</strong></br>
+                            Using a drag-and-drop page builder to customize</br>
+                            storefronts with zero codes
+                        </p>
+                        </div>
+                    </div>
+                    <button class = 'learn-more'><a class = 'info-link' href = 'https://www.simicart.com/magento-pwa-development/'>Learn more</a></button>
+                </div>
+                </div>
+            </div>
+
+            <div class = 'row'>
+                <div class = 'col-lg-5'>
+                    <h2 class = 'job-title'>Magento Mobile App</h2>
+                    <p class = 'job-description'>
+                        Mobile apps power the best shopping channel for on-the-go shoppers
+                        on their most personal devices. Fully integrated with Magento, our
+                        mobileapps deliver rich and engaging shopping experience to boost
+                        customer loyalty and retention.
+                    </p>
+                    <button class = 'learn-more'><a class = 'info-link' href = 'https://www.simicart.com/magento-mobile-app/'>Learn more</a></button>
+                </div>
+
+                <div class = 'col-lg-7'>
+                    <img class = 'image3' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1627268830235/magento-mobile-app.png'></img>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class = 'simicart-part4'>
+            <h2 class = 'title'>Magento Services</h2>
+
+            <div class = 'container-fluid'>
+            <div class = 'row'>
+
+                <div class = 'col-xl-3 col-lg-6'>
+                    <img src = '../HTML+CSS/images/1.svg'></img>
+                    <h4>Magento Customization</h4>
+                    <p>
+                        Tell us what you want to change
+                        or add on your website and our
+                        certified developer will take care
+                        of the rest.
+                    </p>
+                    <div class = 'explore'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/magento-design-service/'>Explore</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'col-xl-3 col-lg-6'>
+                    <img src = '../HTML+CSS/images/2.svg'></img>
+                    <h4>Design Service</h4>
+                    <p>
+                        Based on your business
+                        description and ideas, our
+                        experienced designers will
+                        deliver beautiful and interactive
+                        prototypes that are ready to be
+                        turned into functional websites
+                        and mobile apps.
+                    </p>
+                    <div class = 'explore'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/magento-design-service/'>Explore</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'col-xl-3 col-lg-6'>
+                    <img src = '../HTML+CSS/images/3.svg'></img>
+                    <h4>Magento Speed</br>Optimization</h4>
+                    <p class = 'special-text'>
+                        Website loading speed is an
+                        important factor not only for user
+                        experience but for SEO as well.
+                        We help you optimize your
+                        website for the best loading time
+                        possible.
+                    </p>
+                    <div class = 'explore'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/magento-design-service/'>Explore</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'col-xl-3 col-lg-6'>
+                    <img src = '../HTML+CSS/images/4.svg'></img>
+                    <h4>Marketing Service</h4>
+                    <p>
+                        Using digital marketing tools and
+                        tactics that already work for
+                        many of our clients, we offer a
+                        complete set of marketing
+                        services including SEO, content
+                        marketing, email marketing, PPC
+                        ads, and social media.
+                    </p>
+                    <div class = 'explore'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/magento-design-service/'>Explore</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+        </div>
+        </div>
+
+        <div class = 'simicart-part5'>
+            <h2 class = 'title'>Serving more than 1000 premium brands around the world</h2>
+            <img class = 'image' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1643258855655/customers.png'></img>
+            <button class = 'success'><a class = 'info-link' href = 'https://www.simicart.com/customers.html/'>Explore our customer success</a></button>
+            
+                <div class="owl-two owl-carousel owl-theme">
+                    
+                    <div class = 'container'>
+                    <div class = 'row'>
+                    <div class= 'col-12'>
+                        <div class = 'icon'>
+                            <img src = '../HTML+CSS/images/7.svg'></img>
+                        </div>
+                        <div>
+                            <h2 class = 'title'>Very professional and reliable</h2>
+                        </div>
+                        <div class = 'content-wrapper'>
+                            <p class = 'content1'>
+                                We are using their Tapita page builder and Siminia PWA theme.</br></br>
+                                Very happy with both , communication is perfect , any issues are fast resolved
+                                and they are very customer focused .</br></br>
+                                Highly recommended .</p>
+                        </div>
+                        <div class = 'avatar-wrapper'>
+                            <img class = 'avatar' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1644286101650/chris.jpg'></img>
+                        </div>
+                        <div>
+                            <h4 class = 'name'>Chris Linetty</h4>
+                        </div>
+                        <div>
+                            <p class = 'job'>Head of Ecommerce @ IR Trading</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class = 'container'>
+                    <div class = 'row'>
+                    <div class = 'col-12'>
+                        <div class = 'icon'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M46.62,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.46,13.46,0,0,0,9.59-4,13.15,13.15,0,0,0,1.34-1.56,10.31,10.31,0,0,1-1.48.11,9.49,9.49,0,0,1-9.49-9.86A9.59,9.59,0,0,1,36.76,10,9.49,9.49,0,0,1,46.62,19.51Z" fill="#f69435"></path><path d="M22.32,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.42,13.42,0,0,0,9.58-4,12.37,12.37,0,0,0,1.35-1.56,10.34,10.34,0,0,1-1.49.11,9.5,9.5,0,1,1,9.5-9.49Z" fill="#f69435"></path></svg>
+                        </div>
+                        <div>
+                            <h2 class = 'title'>SimiCart is Trusted</h2>
+                        </div>
+                        <div class = 'content-wrapper'>
+                            <p class = 'content2'>
+                                We have been working with SimiCart since 2017. Firstly, for our Mobile Apps for
+                                Magento 1, and now we upgraded our store to Magento 2 PWA. SimiCart helped
+                                us to finish this project before the deadline.</br></p>
+                            <p class = 'content2'>
+                                After the upgrade to Magento 2, we faced some issue due to "Elastic Search",
+                                but again SimiCart solved those. We are happier that always they attend the
+                                issue immediately.</br></p>
+                            <p class = 'content2'>We can highly recommend SimiCart.</p>
+                        </div>
+                        <div class = 'avatar-wrapper'>
+                            <img class = 'avatar' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640595861163/ismail.jpg'></img>
+                        </div>
+                        <div>
+                            <h4 class = 'name'>Ismail Ali</h4>
+                        </div>
+                        <div>
+                            <p class = 'job'>Founder and CEO @ Oneclick Pvt Ltd</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class = 'container'>
+                    <div class = 'row'>
+                    <div class = 'col-12'>
+                        <div class = 'icon'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M46.62,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.46,13.46,0,0,0,9.59-4,13.15,13.15,0,0,0,1.34-1.56,10.31,10.31,0,0,1-1.48.11,9.49,9.49,0,0,1-9.49-9.86A9.59,9.59,0,0,1,36.76,10,9.49,9.49,0,0,1,46.62,19.51Z" fill="#f69435"></path><path d="M22.32,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.42,13.42,0,0,0,9.58-4,12.37,12.37,0,0,0,1.35-1.56,10.34,10.34,0,0,1-1.49.11,9.5,9.5,0,1,1,9.5-9.49Z" fill="#f69435"></path></svg>
+                        </div>
+                        <div>
+                            <h2 class = 'title'>Excellent Service and Delivery</h2>
+                        </div>
+                        <div class = 'content-wrapper'>
+                            <p class = 'content3'>
+                                We have received amazing service with great support throughout our project.
+                                Extremely responsive, clear about project requirements and expected results.
+                                Attentive to customization requirements. Great partners, beautiful designs and
+                                very creative. I would happily recommend them to anyone looking for a serious
+                                and dedicated developer. Thank you Simicart.</p>
+                        </div>
+                        <div class = 'avatar-wrapper'>
+                            <img class = 'avatar' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1641445327764/irene.jpg'></img>
+                        </div>
+                        <div>
+                            <h4 class = 'name'>Irene Ngowi</h4>
+                        </div>
+                        <div>
+                            <p class = 'job'>@ Shoponline Tanzania</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class = 'container'>
+                    <div class = 'row'>
+                    <div class = 'col-12'>
+                        <div class = 'icon'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M46.62,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.46,13.46,0,0,0,9.59-4,13.15,13.15,0,0,0,1.34-1.56,10.31,10.31,0,0,1-1.48.11,9.49,9.49,0,0,1-9.49-9.86A9.59,9.59,0,0,1,36.76,10,9.49,9.49,0,0,1,46.62,19.51Z" fill="#f69435"></path><path d="M22.32,19.51l.05,1.36a19,19,0,0,1-19,19V34.43a13.42,13.42,0,0,0,9.58-4,12.37,12.37,0,0,0,1.35-1.56,10.34,10.34,0,0,1-1.49.11,9.5,9.5,0,1,1,9.5-9.49Z" fill="#f69435"></path></svg>
+                        </div>
+                        <div>
+                            <h2 class = 'title'>Simicart was wonderful to work with</h2>
+                        </div>
+                        <div class = 'content-wrapper'>
+                            <p class = 'content4'>
+                                Simicart was wonderful to work with. They were highly professional and
+                                provided responsive communication from the get-go. The project was
+                                completed on time, and we would recommend them to everyone</p>
+                        </div>
+                        <div class = 'avatar-wrapper'>
+                            <img class = 'avatar' src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640753564303/ayman.jpg'></img>
+                        </div>
+                        <div>
+                            <h4 class = 'name'>Ayman Al Ahnomi</h4>
+                        </div>
+                        <div>
+                            <p class = 'job'>Director of IT @ Mobile 2000</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                </div>
+            
+            <div class = 'footer'>
+                <div>
+                    <a href = 'https://www.trustpilot.com/review/simicart.com' class = 'text'>See our <strong>19</strong> reviews on</a>
+                </div>
+                <div class = 'image-link'>
+                    <img src = '../HTML+CSS/images/8.svg'></img>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = 'simicart-part6'>
+            <h2 class = 'title'>Brands we work with</h2>
+
+            <div class = 'container'>
+            <div class = 'row'>
+                <div class = 'col-lg-3'>
+                    <img src = '../HTML+CSS/images/5.svg'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640833133341/mageplaza.png'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = '../HTML+CSS/images/6.svg'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640832946756/dtn.png'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1641437604537/bss-logo.png'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1640834252879/beehexa.png'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1641437714278/scandipwa-logo-01.png'></img>
+                </div>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1641437642921/cloudways-logo-01.png'></img>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class = 'simicart-part7'>
+            <h2 class = 'title'>Ecommerce resources</h2>
+
+            <div class = 'container-fluid'>
+            <div class = 'row'>
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1648693495103/PWA-statistics-370x305.png'></img>
+                    <h3>
+                        Every PWA Statistics for Better
+                        eCommerce Insights in 2022
+                    </h3>
+                    <p>Feb 14, 2022 | 11 min read</p>
+                    <div class = 'read-more'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/blog/pwa-statistics/'>Read more</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1644476290901/eCommerce-business-model-featured-image-01-370x305.png'></img>
+                    <h3>
+                        Ecommerce Business Models: Which
+                        Type Works Best For You
+                    </h3>
+                    <p>Jan 28, 2022 | 20 min read</p>
+                    <div class = 'read-more'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/blog/ecommerce-business-model/'>Read more</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'col-lg-3'>
+                    <img src = 'https://tapita.io/pb/pub/media/spb/usr/19/oti/1644476337423/eCommerce-personalization-370x305.png'></img>
+                    <h3>
+                        eCommerce Personalization: Top
+                        Actionable Practices & Examples
+                    </h3>
+                    <p>Jan 25, 2022 | 27 min read</p>
+                    <div class = 'read-more'>
+                        <div class = 'link'>
+                            <a href = 'https://www.simicart.com/blog/ecommerce-personalization/'>Read more</a>
+                        </div>
+                        <div class = 'arrow'>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron-forward_svg__ionicon" viewBox="0 0 512 512" width="100%" height="100%" fill="currentColor">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
